@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main{
+    height:100%;
+    width:100%;
+    background-color: hsl(342.86deg 14.29% 61.57%);
+    display: flex;
+    
+}
+
+#part1{
+    height: 100%;
+    width:26%;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width:67%;
+    background-color: rgb(0, 51, 255);
+    background-image: url('https://images.unsplash.com/photo-1691692677524-7ee6b93adffd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(123, 114, 117, 0.393);
+}
+#part3{
+    height: 100%;
+    width:7%;
+    /* background-color: rgb(0, 255, 81); */
+}
+
+#text{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text>h1{
+    font-size: 95px;
+    font-family: monument;
+    font-weight: 800;
+    letter-spacing: 8px;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#smallimg{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url('https://images.unsplash.com/photo-1673545174610-78273eac993f?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+#verticaltext{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -78%;
+    top:-6%;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+
+#verticaltext h1{
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    letter-spacing:15px;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+#navbar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    left: 7%;
+    top: 5%;
+    /* background-color: red; */
+}
+
+#navbar img{
+    height: 60px;
+}
+
+#navbar h5{
+    font-size: 20px;
+    font-family: gilroy;
+    color: #fff;
+}
